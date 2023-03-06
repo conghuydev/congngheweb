@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bai 14</title>
+    <style>
+        .mess{
+            margin-top: 10px;
+            display: flex;
+            align-items: center;
+            gap: 60px;
+        }
+        .mail{
+            display: flex;
+            align-items: center;
+            gap: 45px;
+        }
+    </style>
+</head>
+<body>
+    <h2>Contact Us</h2>
+    <p>Use the following form to send a message to Example Cafe</p>
+    <form action="">
+        <div class="mail">
+            <label for="email">Your email</label>
+        
+            <input type="email">
+        </div>
+        <div class="mess">
+            <label for="message">Message</label>
+            <textarea name="message" id="" cols="40" rows="13"></textarea>
+        </div>
+        <label for="ok">How did you hear of us?</label>
+        <select name="social" id="">
+            <option value="">Google</option>
+            <option value="">Twitter</option>
+            <option value="">Facebook</option>
+        </select>
+        <br>
+        <label for="letter">Newsletter</label>
+        <input type="checkbox"> Ensure this box is checked if you would like to receive email update
+        <br>
+        <input type="submit" value="Send message">
+    </form>
+</body>
+</html>
